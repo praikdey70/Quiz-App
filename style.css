@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+body{
+    background-image: url(https://img.freepik.com/free-vector/empty-classroom-interior-school-college-class_107791-631.jpg?w=1060&t=st=1683213355~exp=1683213955~hmac=981ca81ba36af513235850290545fa6958d8ac349af093fe2123bdbd2f2d1406);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 5px ;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Comic Neue', sans-serif;
+}
+
+.container{
+    background-color: antiquewhite;
+    width: 600px;
+    box-shadow: 0 0 20px 6px black ;
+    border-radius: 60px;
+    overflow: hidden;
+    
+}
+
+h2{
+    display: flex;
+    padding: 2rem;
+    color: black;
+    margin-top: 1px;
+}
+
+.row{
+    padding: 1rem;
+    list-style-type: none;
+    font-size: 1.2rem ;
+    margin: 10px 0;
+    color: black;
+    width: 100%;
+    margin-left: 0;
+}
+
+label{
+    cursor: pointer;
+}
+
+input{
+    cursor: pointer;
+}
+
+
+#btn{
+    color: black;
+    justify-content: center;
+    text-align: center; 
+    font-size: 1.3rem;
+    font-weight:bolder;
+    background-color: rgb(199, 199, 255);
+    padding: 1.1rem;
+    display: flex;
+    cursor: pointer;
+    border: none;
+    display: block;
+}
+
+#btn:hover{
+    background-color: rgb(179, 213, 128);
+}
+
+#btn:focus{
+    outline: none;
+}
